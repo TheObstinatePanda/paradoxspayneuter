@@ -1,0 +1,36 @@
+p {
+    font-weight: bold;
+}
+
+.bodyContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-content: start;
+    width: 100%;
+    margin: 0;
+    margin-top: 90px;
+    padding: 0;
+}
+
+#clinicContainer{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#clinicImg{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#stage{
+    width: 85%;
+    margin: 0 auto;
+}
+
+.stageImg{
+    max-width: 30%;
+    height: auto;
+}

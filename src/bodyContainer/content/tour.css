@@ -1,0 +1,32 @@
+#tourcont {
+    max-width: 50vw;
+    margin: 0 auto;
+}
+
+#tourImgs {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 40px 0 40px 0;
+}
+
+.tourImg {
+    margin: 10px;
+}
+
+.tourImg p{
+    border-radius: 10px 10px 0 0;
+    background-color: #d9a113ff;
+    box-shadow: 2px 1.5px 5px rgba(105, 76, 3, 1);
+    margin: 0;
+    padding: 10px 10px 10px 10px;
+}
+
+.tourImg img {
+    max-width: 600px;
+    border: solid 2px #0960e3;
+    border-top: none;
+    border-radius: 0 0 10% 10%;
+    box-shadow: 1px 1.5px 5px #032558da;
+}

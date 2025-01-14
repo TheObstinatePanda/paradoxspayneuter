@@ -1,0 +1,91 @@
+.headContainer{
+    background-color: #0960e3;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    min-height: 10vh;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+    box-shadow: 0 7.5px 10px rgba(0,0,0,0.5);
+    margin: 0;
+    padding: 0;
+}
+
+.mainLogo {
+    width:250px;
+    margin: 0 auto;
+    padding: 1.8vh 15vw;
+    display: block;
+}
+
+#rightHeadContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 60%;
+    height: 100%;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+#phones {
+    width: 40%;
+    font-size: 20px;
+    height: 35%;
+    color: white;
+    padding: 20px 0 10px 200px;
+    margin: 0;
+}
+
+#phones ul {
+    list-style-type: none;
+    font-family: century gothic;
+    font-weight: bold;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#phones ul li {
+    flex: 0 0 auto;
+}
+
+#navBar {
+
+    width: 80%;
+    font-size: 20px;
+    font-family: century gothic;
+    font-weight: bold;
+    border-radius: 10px 10px 0 0;
+    background-color: #d9a113ff;
+    box-shadow: 2px 1.5px 5px rgba(105, 76, 3, 1);
+    margin: 0;
+    padding: 0;
+}
+
+#navBar ul {
+    list-style-type: none;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 5px 0px 5px 0px;
+    display: flex;
+}
+
+#navBar ul li a{
+    margin: 2px;
+    color: #000000ff;
+    text-decoration: none;
+    padding: 2px 5px;;
+    display: inline-block;
+}
+
+#navBar ul li a:hover {
+    color: white;
+    box-shadow: 1px 1px 5px rgba(0,0,0,0.33);
+}
