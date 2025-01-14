@@ -56,7 +56,7 @@ function staff() {
                     <img src={jessie} alt='Jessie'/>
                     <div className ='text'>
                         <p>
-                            Jessie is originally from the Boston area and has worked as a Vet Assistant at Paradox for more than 5 years. She is a foster home for PPNK and also runs her own rescue (<a href='https://fivefreedomsfarm.org/' target='_blank' rel="noopener">Five Freedoms Farm</a>) with her partner, Nancy. Jessie has a full time business as a professional freelance sign language interpreter. She is dedicated to the cause of reducing animal cruelty, suffering and euthanasia. She envies the strength, forgiveness and unconditional love that dogs possess and can't imagine a life without lots of doggies to love!
+                            Jessie is originally from the Boston area and has worked as a Vet Assistant at Paradox for more than 5 years. She is a foster home for PPNK and also runs her own rescue (<a href='https://fivefreedomsfarm.org/' target='_blank' rel="noopener noreferrer">Five Freedoms Farm</a>) with her partner, Nancy. Jessie has a full time business as a professional freelance sign language interpreter. She is dedicated to the cause of reducing animal cruelty, suffering and euthanasia. She envies the strength, forgiveness and unconditional love that dogs possess and can't imagine a life without lots of doggies to love!
                         </p>
                     </div>
                 </div>
