@@ -1,5 +1,5 @@
 // Code to display the main page of the website
-import react, { useState } from 'react';
+import { useState } from 'react';
 import './App.css';
 import HeadContainer from './headContainer/headContainer.js';
 import BodyContainer from './bodyContainer/bodyContainer.js';

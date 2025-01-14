@@ -22,7 +22,8 @@ function footContainer() {
             style={{ border: 0}}
             allowfullscreen=""
             loading="lazy" referrerpolicy="no-referrer-when-downgrade"
-            id="map">
+            id="map"
+            title="Paradox Spay & Neuter Map Location">
           </iframe>   
         </div>
         <div id='footer'>
