@@ -5,7 +5,8 @@
     justify-content: space-between;
     position: fixed;
     width: 100%;
-    min-height: 10vh;
+    min-height: 8vh;
+    max-height: 11vh;
     z-index: 1000;
     top: 0;
     left: 0;
@@ -57,7 +58,6 @@
 }
 
 #navBar {
-
     width: 80%;
     font-size: 20px;
     font-family: century gothic;
@@ -67,6 +67,7 @@
     box-shadow: 2px 1.5px 5px rgba(105, 76, 3, 1);
     margin: 0;
     padding: 0;
+    bottom: 0;
 }
 
 #navBar ul {
