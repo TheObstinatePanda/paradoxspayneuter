@@ -16,12 +16,12 @@ function headContainer({ onNavClick }) {
         </div>
         <div id="navBar">
             <ul>
-                <li><button onClick={ () => onNavClick('about')}>About</button></li>
-                <li><button onClick={ () => onNavClick('services')}>Services</button></li>
-                <li><button onClick={ () => onNavClick('care')}>Care Instructions</button></li>
-                <li><button onClick={ () => onNavClick('staff')}>Meet the Staff</button></li>
-                <li><button onClick={ () => onNavClick('tour')}>Tour</button></li>
-                <li><button onClick={ () => onNavClick('contact')}>Contact</button></li>
+                <li><a onClick={ () => onNavClick('about')}>About</a></li>
+                <li><a onClick={ () => onNavClick('services')}>Services</a></li>
+                <li><a onClick={ () => onNavClick('care')}>Care Instructions</a></li>
+                <li><a onClick={ () => onNavClick('staff')}>Meet the Staff</a></li>
+                <li><a onClick={ () => onNavClick('tour')}>Tour</a></li>
+                <li><a onClick={ () => onNavClick('contact')}>Contact</a></li>
             </ul>
         </div>
       </div>
