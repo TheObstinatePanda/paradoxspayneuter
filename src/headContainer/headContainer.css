@@ -3,10 +3,9 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: flex-end;
     position: fixed;
     width: 100%;
-    min-height: 8vh;
-    max-height: 11vh;
     z-index: 1000;
     top: 0;
     left: 0;
@@ -17,28 +16,25 @@
 
 .mainLogo {
     width:250px;
-    margin: 0 auto;
-    padding: 1.8vh 15vw;
+    padding: 1.8vh 0 1vh 20vw;
     display: block;
 }
 
 #rightHeadContainer {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    width: 60%;
-    height: 100%;
-    align-items: center;
-    margin: 0;
+    width: auto;
+    margin: 0 10vh;
     padding: 0;
+    border: solid green 1px;
 }
 
 #phones {
-    width: 40%;
+    width: auto;
     font-size: 20px;
     height: 35%;
     color: white;
-    padding: 20px 0 10px 200px;
+    padding: 10px 0;
     margin: 0;
 }
 
@@ -51,6 +47,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    align-items: center;
 }
 
 #phones ul li {
@@ -58,24 +55,23 @@
 }
 
 #navBar {
-    width: 80%;
+    width: auto;
     font-size: 20px;
-    font-family: century gothic;
     font-weight: bold;
     border-radius: 10px 10px 0 0;
     background-color: #d9a113ff;
     box-shadow: 2px 1.5px 5px rgba(105, 76, 3, 1);
     margin: 0;
-    padding: 0;
+    padding: 0 10px 0 10px;
     bottom: 0;
 }
 
 #navBar ul {
     list-style-type: none;
     flex-direction: row;
-    justify-content: space-evenly;
-    margin: 5px 0px 5px 0px;
+    margin: 2.5px;
     display: flex;
+    justify-content: space-evenly;
 }
 
 button {
@@ -85,7 +81,6 @@ button {
     cursor: pointer;
     margin: 2px;
     color: #000000ff;
-    padding: 2px 5px;
     display: inline-block;
 }
 

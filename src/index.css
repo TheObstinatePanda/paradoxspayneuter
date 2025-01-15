@@ -1,5 +1,6 @@
 html{
   background-color: #f5f5d3ff;
+  max-width: 100%;
 }
 body {
   margin: 0;
@@ -8,6 +9,10 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+html,body{
+  overflow-x: hidden;
 }
 
 code {
