@@ -2,6 +2,12 @@ import './headContainer.css';
 import logo from './logo.png';
 
 function headContainer({ onNavClick }) {
+
+  function toggleMenu() {
+    const nav = document.querySelector('#navBar ul');
+    nav.classList.toggle('show');
+  }
+
   return (
     <div className="headContainer">
       <div id="logo">
@@ -23,6 +29,9 @@ function headContainer({ onNavClick }) {
                 <li><button onClick={ () => onNavClick('tour')}>Tour</button></li>
                 <li><button onClick={ () => onNavClick('contact')}>Contact</button></li>
             </ul>
+            <div className="burger-menu" onClick={toggleMenu}>
+              <span id='berger'>&#9776;</span>
+            </div>
         </div>
       </div>
     </div>

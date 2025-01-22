@@ -1,19 +1,20 @@
 .App {
-  display: flex;
-  flex-direction: column;
-  height: 100vh;
+  /* height: 100vh; */
   margin: 0;
   padding: 0;
   background-color: #f5f5d3ff;
+  position: relative;
 }
 
-
+.App::-webkit-scrollbar {
+  display: none;
+}
 
 .head{
   flex: 0 0 auto;
   margin: 0;
   padding: 0;
-  position: fixed;
+  /* position: fixed; */
 }
 
 .body {
@@ -25,7 +26,6 @@
   width: 100%;
   margin: 0;
   padding: 0;
-  border: solid red 1px;
 }
 
 .foot {

@@ -6,19 +6,22 @@
 #hoursContainer {
     display: flex;
     justify-content: space-evenly;
-    margin: 40px 0 40px 0; 
+    margin: 40px 0; 
 }
 
 #aboutImgs {
     max-width: 50%;
-    
+    align-items: center;
+    display: flex;
+    align-items: center;
 }
 
 #aboutImgs img {
-    margin: 0 7px;
+    margin: 1.25%;
     border: solid 2px #0960e3;
     border-radius: 10%;
     box-shadow: 1px 1.5px 5px #032558da;
+    max-width: 30%;
 }
 
 #hoursContainer ul {
@@ -30,4 +33,28 @@
     padding: 5px 0 3px 10px;
     border-radius: 10px 10px 0 0;
     box-shadow: 1px 1.5px 5px rgba(105, 76, 3, 0.438);
+}
+
+@media (max-width: 1160px) {
+    .stageImg{
+        max-width: 29.62%;
+        margin: 0;
+        padding: 0;
+    } 
+    #aboutImgs{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+
+    }
+}
+
+@media (max-width: 620px) {
+    #hoursContainer {
+        flex-direction: column-reverse;
+    }
+
+    #aboutImgs {
+        min-width: 100%;
+    }
 }

@@ -1,6 +1,8 @@
 html{
   background-color: #f5f5d3ff;
   max-width: 100%;
+  max-height: fit-content;
+  font-size: 16px;
 }
 body {
   margin: 0;
@@ -19,3 +21,4 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+

@@ -2,7 +2,7 @@
     background-color: #0960e3;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: flex-end;
     position: fixed;
     width: 100%;
@@ -14,27 +14,35 @@
     padding: 0;
 }
 
+#logo {
+    height: 100px;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+}
+ 
 .mainLogo {
-    width:250px;
-    padding: 1.8vh 0 1vh 20vw;
-    display: block;
+    max-width: 340px;
+    padding: 0;
 }
 
 #rightHeadContainer {
     display: flex;
     flex-direction: column;
     width: auto;
-    margin: 0 10vh;
+    height: auto;
+    margin: 0;
     padding: 0;
 }
 
 #phones {
-    width: auto;
+    display: flex;
+    justify-content: center;
     font-size: 20px;
-    height: 35%;
     color: white;
-    padding: 10px 0;
-    margin: 0;
+    margin: 10px 0;
 }
 
 #phones ul {
@@ -46,11 +54,11 @@
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    align-items: center;
 }
 
 #phones ul li {
-    flex: 0 0 auto;
+    flex: 0 0 auto;  
+    margin: 0 20px;
 }
 
 #navBar {
@@ -60,9 +68,10 @@
     border-radius: 10px 10px 0 0;
     background-color: #d9a113ff;
     box-shadow: 2px 1.5px 5px rgba(105, 76, 3, 1);
-    margin: 0;
-    padding: 0 10px 0 10px;
+    margin: 0 10vw;
+    padding: 5px 20px 5px 20px;
     bottom: 0;
+    align-self: flex-end;
 }
 
 #navBar ul {
@@ -71,6 +80,7 @@
     margin: 2.5px;
     display: flex;
     justify-content: space-evenly;
+    padding-inline-start: 0;
 }
 
 button {
@@ -87,3 +97,172 @@ button:hover {
     color: white;
     text-shadow: 1px 2px 2px rgba(0,0,0,0.5);
 }
+
+.burger-menu {
+    display: none;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+#berger{
+    margin: 0 auto;
+}
+
+@media (max-width: 620px) {
+    .headContainer{
+        height: 200px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    #logo {
+        margin: 0;
+        padding: 0;
+        padding-top: 20px;
+        min-width: 90%;
+    }
+
+    .mainLogo {
+        min-width: 300px;
+    }
+
+    #rightHeadContainer {
+        min-width: 100%;
+        align-items: center;
+        margin-top: auto;
+        border: solid 1px red;
+    }
+
+    #phones {
+        flex-direction: column;
+        padding-left: 10vw;
+    }
+
+    #phones ul li {
+        margin: 0 0 0 10px;
+    }
+
+    #navBar {
+        margin: 0;
+        padding: 0;
+        max-width: 20px;
+    }
+    
+    #navBar ul.show {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        position: absolute;
+        top: 99%;
+        left: 0;
+        z-index: 999;
+    }
+
+
+    #berger {
+        padding: 0;
+        margin: 0 auto;
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 950px) {
+    .mainLogo {
+        width: 600px;
+    }
+
+    #rightHeadContainer {
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-content: space-evenly;
+    }
+
+    #phones ul li {
+        font-size: 18px;
+    }
+
+    #navBar {
+        width: 10%;
+        margin: 0;
+        margin-left: 15vw;
+    }
+
+    #navBar ul{
+        display: none;
+        flex-direction: column;
+        width: 50%;
+        position: absolute;
+        top: 95px;
+        right: 5.9vw;
+        background-color: #d9a113ff;
+        border-radius: 0px 0px 10px 10px;
+        box-shadow: 1px 2px 2px rgba(0,0,0,0.5);
+    }
+
+    #navBar ul li {
+        padding: 4.5px 0;
+    }
+
+    .burger-menu {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    #navBar ul.show {
+        display: flex;
+        align-items: center;
+        right: 0;
+    }
+}
+
+@media (max-width: 1160px) {
+
+    #logo {
+        height: 100px;
+        width: 40%;
+        display: flex;
+        justify-content: center;
+        justify-items: center;
+        align-items: center;
+    }
+
+    .mainLogo {
+        padding: 0;
+        width: 200px;
+    }
+
+    #rightHeadContainer {
+        margin: 0;
+        width: 66%;
+    }
+
+    .berger-menu {
+        border: solid 1px pink;
+    }
+
+    #phones {
+        width: 100% !important; 
+    }
+
+    #phones ul li {
+        border: solid 1 px green;
+    }
+
+    #navBar {
+        font-size: 16px;
+        padding: 10px;
+    }
+
+    #navbar ul {
+        margin: 0;
+        padding: 0;
+        padding-inline-start: 0;
+    }
+
+    button {
+        margin-right: 10px;
+    }
+}
+
+
