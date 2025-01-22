@@ -40,9 +40,24 @@ p {
     height: auto;
 }
 
-@media (max-width: 950px) {
+@media (max-width: 620px) {
     .bodyContainer{
         margin-top: 2000px;
+    }
+
+    #stage{
+        width: 100%;
+    }
+    .stageImg{
+        max-width: 100%;
+        margin: 0;
+        padding: 0;
+    } 
+}
+
+@media (max-width: 950px) {
+    .bodyContainer{
+        margin: 200px 0 0 0;
     }
 
     #stage{

@@ -131,7 +131,6 @@ button:hover {
         min-width: 100%;
         align-items: center;
         margin-top: auto;
-        border: solid 1px red;
     }
 
     #phones {
@@ -154,7 +153,7 @@ button:hover {
         flex-direction: column;
         width: 100%;
         position: absolute;
-        top: 99%;
+        top: 98%;
         left: 0;
         z-index: 999;
     }

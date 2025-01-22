@@ -17,3 +17,13 @@
     margin: 10px 0 5px 0;
     padding: 0;
 }
+
+@media (max-width: 620px) {
+    #contactcont{
+        margin: 40px 10px 20px;   
+    }
+
+    #contactcont h2 {
+        max-width: 100%;
+    }
+}

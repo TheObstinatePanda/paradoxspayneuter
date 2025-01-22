@@ -64,6 +64,12 @@
 }
 
 @media (max-width:950px) {
+
+    .footContainer{
+        height: 100%;
+        padding: 0;
+    }
+
     #footInfo{
         display: flex;
         flex-direction: column-reverse;
@@ -71,6 +77,9 @@
 
     #footInfoLeft {
         width: 100%;
-        align-items: center;
+    }
+
+    #map {
+        width: 100%;
     }
 }
