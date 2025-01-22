@@ -8,6 +8,11 @@ function headContainer({ onNavClick }) {
     nav.classList.toggle('show');
   }
 
+  function handleNavClick(section) {
+    onNavClick(section);
+    toggleMenu();
+  }
+
   return (
     <div className="headContainer">
       <div id="logo">
@@ -22,12 +27,12 @@ function headContainer({ onNavClick }) {
         </div>
         <div id="navBar">
             <ul>
-                <li><button onClick={ () => onNavClick('about')}>About</button></li>
-                <li><button onClick={ () => onNavClick('services')}>Services</button></li>
-                <li><button onClick={ () => onNavClick('care')}>Care Instructions</button></li>
-                <li><button onClick={ () => onNavClick('staff')}>Meet the Staff</button></li>
-                <li><button onClick={ () => onNavClick('tour')}>Tour</button></li>
-                <li><button onClick={ () => onNavClick('contact')}>Contact</button></li>
+                <li><button onClick={ () => handleNavClick('about')}>About</button></li>
+                <li><button onClick={ () => handleNavClick('services')}>Services</button></li>
+                <li><button onClick={ () => handleNavClick('care')}>Care Instructions</button></li>
+                <li><button onClick={ () => handleNavClick('staff')}>Meet the Staff</button></li>
+                <li><button onClick={ () => handleNavClick('tour')}>Tour</button></li>
+                <li><button onClick={ () => handleNavClick('contact')}>Contact</button></li>
             </ul>
             <div className="burger-menu" onClick={toggleMenu}>
               <span id='berger'>&#9776;</span>
