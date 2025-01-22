@@ -50,6 +50,11 @@
 }
 
 @media (max-width: 620px) {
+
+    #aboutText {
+        margin: 40px 10px 20px;
+    }
+
     #hoursContainer {
         flex-direction: column-reverse;
     }
