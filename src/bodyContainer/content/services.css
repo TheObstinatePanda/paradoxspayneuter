@@ -19,3 +19,25 @@
     list-style: none;
     width: 33vw;
 }
+
+@media (max-width: 620px) {
+    #servicesContainer {
+        margin-top: 40px;
+    }
+
+    #servicesContainer a {
+        margin: 20px;
+    }
+
+    #dogvcat {
+        flex-direction: column;
+    }
+
+    #cat {
+        padding-bottom: 40px;
+    }
+
+    .prices {
+        width: 100%;
+    }
+}

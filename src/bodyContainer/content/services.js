@@ -2,7 +2,7 @@ import './services.css';
 
 function services() {
     return (
-        <div>
+        <div id='servicesContainer'>
             <p>Click on the link below to make your appointment request. We will contact you with a confirmation if we are able to fit you into your selected slot. We are only open to the public on Tuesday, Wednesday, and Thrusday, please do NOT make an appointment for Monday or Friday as we are not open on those days.</p>
 
             <p>We highly recommend all puppies 2 years and younger have 2 DHPP shots prior to their spay/neuter appointment. If you wish to forgo this protection we cannot be held responsible and will require you to sign a waiver. You can make an appointment fo the shots by calling 770-787-8717.</p>
