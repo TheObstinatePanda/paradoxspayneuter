@@ -23,6 +23,7 @@
 @media (max-width: 620px) {
     #servicesContainer {
         margin-top: 60px;
+        width: 100%;
     }
 
     #servicesContainer a {
@@ -33,11 +34,8 @@
         flex-direction: column;
     }
 
-    #cat {
-        padding-bottom: 40px;
-    }
-
     .prices {
-        width: 100%;
+        width: 80%;
+
     }
 }

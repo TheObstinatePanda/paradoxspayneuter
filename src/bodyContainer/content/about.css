@@ -35,7 +35,8 @@
     box-shadow: 1px 1.5px 5px rgba(105, 76, 3, 0.438);
 }
 
-@media (max-width: 1160px) {
+/* Previous media queries - commented out for reference */
+/* @media (max-width: 1160px) {
     .stageImg{
         max-width: 29.62%;
         margin: 0;
@@ -61,5 +62,56 @@
 
     #aboutImgs {
         min-width: 100%;
+    }
+} */
+
+/* Industry standard breakpoints */
+
+/* Extra small devices (small phones, less than 480px) */
+@media (max-width: 480px) {
+    #aboutText {
+        margin: 40px 10px 20px;
+    }
+
+    #hoursContainer {
+        flex-direction: column-reverse;
+    }
+
+    #aboutImgs {
+        min-width: 100%;
+    }
+}
+
+/* Small devices (phones, 481px to 767px) */
+@media (min-width: 481px) and (max-width: 767px) {
+    #aboutText {
+        margin: 40px 10px 20px;
+    }
+
+    #hoursContainer {
+        flex-direction: column-reverse;
+    }
+
+    #aboutImgs {
+        min-width: 100%;
+    }
+}
+
+/* Medium devices (tablets, 768px to 1023px) */
+@media (min-width: 768px) and (max-width: 1023px) {
+    #aboutImgs {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        max-width: 60%;
+    }
+}
+
+/* Large devices (desktops, 1024px to 1199px) */
+@media (min-width: 1024px) and (max-width: 1199px) {
+    #aboutImgs {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
     }
 }

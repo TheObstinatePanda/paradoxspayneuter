@@ -40,14 +40,20 @@ p {
     height: auto;
 }
 
-@media (max-width: 620px) {
+
+
+/* Industry standard breakpoints */
+
+/* Extra small devices (small phones, less than 480px) */
+@media (max-width: 480px) {
     .bodyContainer{
-        margin-top: 2000px;
+        margin-top: 60px;
     }
 
     #stage{
         width: 100%;
     }
+    
     .stageImg{
         max-width: 100%;
         margin: 0;
@@ -55,24 +61,43 @@ p {
     } 
 }
 
-@media (max-width: 950px) {
+/* Small devices (phones, 481px to 767px) */
+@media (min-width: 481px) and (max-width: 767px) {
     .bodyContainer{
-        margin: 200px 0 0 0;
+        margin-top: 80px;
     }
 
     #stage{
         width: 100%;
     }
+    
     .stageImg{
-        max-width: 29.62%;
+        max-width: 100%;
         margin: 0;
         padding: 0;
     } 
 }
 
-@media (max-width: 1160px) {
+/* Medium devices (tablets, 768px to 1023px) */
+@media (min-width: 768px) and (max-width: 1023px) {
+    .bodyContainer{
+        margin-top: 120px;
+    }
+
+    #stage{
+        width: 100%;
+    }
+    
+    .stageImg{
+        max-width: 30%;
+        margin: 0;
+        padding: 0;
+    } 
+}
+
+/* Large devices (desktops, 1024px to 1199px) */
+@media (min-width: 1024px) and (max-width: 1199px) {
     .bodyContainer{
         margin-top: 100px;
     }  
-    
 }
