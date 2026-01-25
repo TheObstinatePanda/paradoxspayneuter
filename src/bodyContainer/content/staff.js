@@ -2,10 +2,15 @@ import './staff.css';
 import {
     anne,
     drbethperry,
-    drtrishdurrence,
+    drjessica,
+    drrachel,
     jessie,
     julie,
-    tanya
+    tanya,
+    teresa,
+    misti,
+    lilly, 
+    valerie,
  } from '../images';
 
 function staff() {
@@ -15,58 +20,50 @@ function staff() {
             <p>Our staff is made up of a team of two licensed Verinarians as well as a number of experienced Vet Assistants and volunteers who are dedicated to providing the best care for your pet.</p>
             
             <div id="biocont">
-                <h3 className='profile'>Dr. Elizabeth Perry</h3>
+                <h3 className='profile'>Dr. Perry, Veterinarian</h3>
                 <div className="bio1">
-                    <img src={drbethperry} alt='Dr. Elizabeth Perry'/>
+                    <img src={drbethperry} alt='Dr. Perry'/>
                     <div className ='text'>
-                        <p>
-                            Dr. Perry has dedicated a large part of her practice to providing low-cost spay/neuter in the metro Atlanta area. She provides services to organizations and agencies including PAWS Atlanta, Henry, Morgan, Rockdale and Jasper County Animal Control, and also practices at Monroe Animal Care Hospital. Dr. Perry has performed over 10,000 spay-neuter surgeries. She is also highly active in pet rescue, having saved hundreds of dogs and cats.
-                        </p>
-                        <p>
-                            In 2007 Dr. Perry was named one of Walton County's "Unsung Heros" by the Walton Tribune for her work with animal shelter rescue efforts and she remains a vital component of the area's rescue community.
-                        </p> 
-                        <p>
-                            A graduate of the University of Georgia Veterinary School, Dr. Perry and her family live in Walton County.
-                        </p>
+                        A graduate of the University of Georgia ("Go Dawgs"), Dr. Perry has dedicated most of her career to reducing pet overpopulation through her low-cost spay and neuter services. Deeply involved in her rescue work with the PPNK organization, she approaches every animal with compassion and care and consistently goes above and beyond for patients and people. Dr. Perry is also the proud mother of Dr. Jessica and Dr. Rachel, who have followed in her footsteps as veterinarians. Known as one of the most caring and supportive leaders you'll ever work with, she is truly the heart of Paradox.
                     </div>
                 </div>
                 <hr />
-                    <h3 className='profile'>Dr. Trisha Durrence</h3>
+                    <h3 className='profile'>Dr. Jessica</h3>
                 <div className="bio2">
-                    <img src={drtrishdurrence} alt='Dr. Trish Durrence'/>
+                    <img src={drjessica} alt='Dr. Jessica'/>
                     <div className ='text'>
                         <p>
-                            Dr. Durrence works every other friday for us. She has 24 years experience in small animal medicine and surgery.
+                            Dr. Jessica is a University of Georgia graduate who works at Paradox, where she performs spay and neuter surgeries to help reduce animal overpopulation. She is also a co-owner of Grayson Veterinary Hospital. A lifelong pet lover, Dr. Jessica is passionate about improving the lives of animals through compassionate veterinary care.
                         </p>
                     </div>
                 </div>
                 <hr />
-                    <h3 className='profile'>Julie</h3>
+                    <h3 className='profile'>Dr. Rachel</h3>
                 <div className="bio1">
-                    <img src={julie} alt='Julie'/>
+                    <img src={drrachel} alt='Dr. Rachel'/>
                     <div className ='text'>
                         <p>
-                            Julie works in the clinic as Receptionist and Vet Assistant. She is co-director of Pound Puppies 'N Kittens as well as Secretary and Treasurer. Working with PPNK, Julie has rescued hundreds of dogs over 10 years, frequently dedicating her dining room to litters of puppies. She is on a mission to save dogs and cats and fight overpopulation - the number one killer of dogs and cats. "I should be retired 'cause I am old and grouchy but no one will let me, so I will probably just keel over at adoptions in front of Petsmart the day I die..." (Hopefully that won't be for a long time!)
+                            Dr. Rachel is a graduate of the University of Georgia and co-owner of Grayson Veterinary Hospital. A dedicated veterinarian, she is known for her compassionate care and willingness to go above and beyond for her patients and clients. She combines medical expertise with a warm and approachable personality. A devoted mom to Ava, she deeply values her family and everyone she meets.
                         </p>
                     </div>
                 </div>
                 <hr />
-                    <h3 className='profile'>Jessie</h3>
+                    <h3 className='profile'>Tanya</h3>
                 <div className="bio2">
-                    <img src={jessie} alt='Jessie'/>
+                    <img src={tanya} alt='Tanya'/>
                     <div className ='text'>
                         <p>
-                            Jessie is originally from the Boston area and has worked as a Vet Assistant at Paradox for more than 5 years. She is a foster home for PPNK and also runs her own rescue (<a href='https://fivefreedomsfarm.org/' target='_blank' rel="noopener noreferrer">Five Freedoms Farm</a>) with her partner, Nancy. Jessie has a full time business as a professional freelance sign language interpreter. She is dedicated to the cause of reducing animal cruelty, suffering and euthanasia. She envies the strength, forgiveness and unconditional love that dogs possess and can't imagine a life without lots of doggies to love!
+                            Tanya is a longtime member of the Paradox team and oversees Human Resources. She is also deeply involved with PPNK Rescue organization. Known for her compassion and generosity, Tanya truly loves every animal and would give anything to help one in need. If you ever have a problem, she is the one person you can always call.
                         </p>
                     </div>
                 </div>
                 <hr />
-                <h3 className='profile'>Tanya</h3>
+                <h3 className='profile'>Teresa</h3>
                 <div className="bio1">                    
-                    <img src={tanya} alt='tanya'/>
+                    <img src={teresa} alt='Teresa'/>
                     <div className ='text'>
                         <p>
-                            Tanya has worked with Paradox Spay Neuter Clinic for over 4 years. She is a dedicated employee who has a passion for animals. She recently received the Animal Professional of the Year award from the Walton Animal Guild recognizing her dedication and love for the animals she cares for. Tanya is also an active volunteer with Pound Puppies 'N Kittens. She fosters homeless dogs, especially Great Danes, takes them to adoptions on a regular basis. She has recently taken on the task of PPNK Volunteer Coordinator for the Conyers Petsmart cat adoption center. Tanya is always willing to help out where needed, she is truly an animal's best friend! 
+                            Teresa has been with Paradox for several years. She is the friendly voice and face at the front desk, an avid animal lover who works closely with the PPNK rescue organization. She is known for her bright smile and happy personality. Teresa helps make every client feel welcome.
                         </p>
                     </div>
                 </div>
@@ -76,10 +73,41 @@ function staff() {
                     <img src={anne} alt="Anne"/>
                     <div className ='text'>
                         <p>
-                            A native Atlantan, Anne has worked as a Vet Assistant at Paradox for 1 1/2 years, and volunteers and fosters animals for PPNK. An accountant in a former lifetime, Anne now is a professional stained glass artist and teacher. Previously, she owned retail pet supply stores and ran a large rescue-and-adoption program through those stores. Anne has a mini-farm and lives with many rescued animals. Her particular interest is caring for "senior citizen" dogs, or ones with physical or mental problems that make it difficult to find suitable adoption homes for them. 
+                            Anne has been with Paradox for years. She is a stained glass teacher and is very passionate about sharing the craft with others. Anne is devoted to the rescue and care of animals.
                         </p>
                     </div>
                 </div>
+                 <hr />
+                    <h3 className='profile'>Misti</h3>
+                <div className="bio1">
+                    <img src={misti} alt='Misti'/>
+                    <div className ='text'>
+                        <p>
+                            Misti has been with Paradox for several years and a valued member of the team. She works behind the scenes, supporting surgical procedures and patient care. Outside of work, she is a devoted mom and passionate animal lover with multiple pets.
+                        </p>
+                    </div>
+                </div>
+                <hr />
+                    <h3 className='profile'>Lilly</h3>
+                <div className="bio2">
+                    <img src={lilly} alt='Lilly'/>
+                    <div className ='text'>
+                        <p>
+                            Lilly works behind the scenes, assisting with animal surgeries. She has hands-on experience in animal care and is a recent high school graduate with a strong passion for horses, dogs, and cats.
+                        </p>
+                    </div>
+                </div>
+                <hr />
+                <h3 className='profile'>Valerie</h3>
+                <div className="bio1">                    
+                    <img src={valerie} alt='Valerie'/>
+                    <div className ='text'>
+                        <p>
+                            Valerie is a graduate of the University of Georgia with extensive experience in animal medicine and a valued member of Paradox. As a surgical veterinary technician, she provides skilled and compassionate care to every patient. Outside of work, she is a mom of three and shares her life with horses, dogs, cats, and just about any animal she can help.
+                        </p>
+                    </div>
+                </div>
+                <hr />
             </div>
         </div>
     )
