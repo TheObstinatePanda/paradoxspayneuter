@@ -11,7 +11,8 @@ import tanya from '../images/tanya.jpg';
 import teresa from '../images/teresa.jpg'
 import misti from '../images/Misti.jpg';
 import lilly from '../images/lilly.PNG';
-import valerie from '../images/valerie.jpg'
+import valerie from '../images/valerie.jpg';
+import skylar from '../images/skylar.jpg';
 import catrecovery from '../images/CatRecovery.jpg';
 import clinicfront from '../images/ClinicFront.jpg';
 import dogroom from '../images/DogRoom.jpg';
@@ -31,6 +32,7 @@ export {
     tanya,
     teresa,
     misti,
+    skylar,
     lilly,
     valerie,
     catrecovery,

@@ -7,7 +7,7 @@ function services() {
 
             <p>We highly recommend all puppies 2 years and younger have 2 DHPP shots prior to their spay/neuter appointment. If you wish to forgo this protection we cannot be held responsible and will require you to sign a waiver. You can make an appointment fo the shots by calling 770-787-8717.</p>
 
-            <a href="https://www.paradoxspayneuter.com/appointment-request.html">Click here to make an Appointment Request!</a>
+            <a href="https://www.clinichq.com/online/9596676a-b477-4076-8ce9-9ce9e56d8936">Click here to make an Appointment Request!</a>
 
             <p>Once your appointment is confirmed, we will contact you with drop-off and pick-up times. We may be able to provide same day service at an additional charge.</p>
 

@@ -11,6 +11,7 @@ import {
     misti,
     lilly, 
     valerie,
+    skylar,
  } from '../images';
 
 function staff() {
@@ -107,6 +108,17 @@ function staff() {
                         </p>
                     </div>
                 </div>
+                <hr />
+                    <h3 className='profile'>Skylar</h3>
+                <div className="bio2">
+                    <img src={skylar} alt='Skylar'/>
+                    <div className ='text'>
+                        <p>
+                            Skylar is a Veterinary Surgical Support. A graduate of the University of Georgia, Skylar has been with Paradox for several years, working behind the scenes to assist with surgeries, recovery, and overall animal care. She works closely with rescue organization PPNK and is known for going above and beyond for every animal. Skylar brings compassion and dedication to everything she does.
+                        </p>
+                    </div>
+                </div>
+                <hr />
                 <hr />
             </div>
         </div>
