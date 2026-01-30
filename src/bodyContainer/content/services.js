@@ -20,16 +20,16 @@ function services() {
                     <h2>Dogs</h2>
                     <p>NOTE: we do not perform surgery on dogs in heat</p>
                     <ul className='prices'>
-                        <li>Spay(female) $100</li>
+                        <li>Spay(female) $110</li>
                         <li>Spay(female) under 6 months of 
                         age $80</li>
-                        <li>Neuter(male) $95</li>
+                        <li>Neuter(male) $105</li>
                         <li>Neuter(male) under 6 months of age $75</li>
                         <li>
                             <ul>
-                                <li>Add $44 for dogs 50-69 lbs</li>
-                                <li>Add $88 for dogs 70-89 lbs</li>
-                                <li>Add $165 for dogs that are pregnant or have an abnormal uterus.</li>
+                                <li>Add $48 for dogs 50-69 lbs</li>
+                                <li>Add $97 for dogs 70-75 lbs</li>
+                                <li>Add $182 for dogs that are pregnant or have an abnormal uterus.</li>
                             </ul>
                         </li>
                         <p>Any dog spay over 90 lbs must call 770-787-8717, pressing option 3 and leave a voicemail to make an appointment for us to perform a quick exam to ensure we will be able to do surgery at our facility.</p>
@@ -39,16 +39,16 @@ function services() {
                 <div id='cat'>
                     <h2>Cats and Kittens</h2>
                     <ul className='prices'>
-                        <li>Spay(female) $70 (Add $20-$65 for cats that are pregnat or in heat, the cose depends on how far along the pregnancy is.)</li>
-                        <li>Neuter(male) $47</li>
+                        <li>Spay(female) $77 (Add $22-$85 for cats that are pregnat or in heat, the cose depends on how far along the pregnancy is.)</li>
+                        <li>Neuter(male) $52</li>
                         
                         <p>All cats must be in a carrier or trap or we will not accept them. An injection for additional pain management is available for $10. Additional take home pain meds or antibiotics are $18 each.</p>
                     </ul>
                     <h2>Feral Cats</h2>
                     <ul>
                         <p>No appointment necessary. Drop off Tues-Thurs 8:30 AM to 10 AM. Max of 3 cats per day. All ferals must be in a trap and Ear Tip is required!</p>
-                        <li>Feral Cat Spay(female)$77 (Add$22-$85 for cast that are pregnant. Pricing depends on how far along the pregnancy is.)</li>
-                        <li>Feral Cat Neuter(male)$52</li>
+                        <li>Feral Cat Spay(female)$90 (Add$22-$85 for cast that are pregnant. Pricing depends on how far along the pregnancy is.)</li>
+                        <li>Feral Cat Neuter(male)$67</li>
                     </ul>
                     <h2>Other Services</h2>
                     <ul className='prices'>
@@ -63,6 +63,7 @@ function services() {
                         <li>Cat FeLV/FIV Combo Test $44</li>
                         <li>Microchip $28</li>
                         <li>Fecal Test $17</li>
+                        
                         <li>Flea/Tick Treament - Cost varies</li>
                         <li>E-Collar (if required) $12-$16</li>
                         <li>Heartworm Treatment - price depends on the weight of the dog</li>
