@@ -42,5 +42,41 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
+    <!-- PetPlace vet channel widget -->
+<div id="petplace-multi-quote-form"></div>
+<script>
+(function (doc, tag, id) {
+var js = doc.getElementsByTagName(tag)[0];
+if (doc.getElementById(id)) { return; }
+js = doc.createElement(tag); js.id = id;
+js.src = "https://quote.petplace.com/lib/widgets/petplace/quote-multi-step/widget.min.js";
+js.type = "text/javascript";
+doc.body.appendChild(js);
+}(document, 'script', 'petplace-multi-quote-engine'));
+window.addEventListener("load", function (event) {
+QuoteEngine.setOptions({
+targetId: "petplace-multi-quote-form",
+
+redirectUrl: "https://quote.petplace.com/quote",
+baseUrl: "https://quote.petplace.com",
+urlParam: {
+
+source: 'vet-widget-Paradox-Spay-Neuter-Clinic-CUN011832212',
+
+utm_source: '',
+utm_medium: '',
+utm_campaign: '',
+utm_content: '',
+utm_term: '',
+
+},
+
+refCode: 'petplace',
+
+});
+QuoteEngine.init();
+}, false);
+</script>
+<!-- End PetPlace vet channel widget -->  
   </body>
 </html>

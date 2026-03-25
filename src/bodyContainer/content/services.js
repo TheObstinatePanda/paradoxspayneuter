@@ -20,56 +20,50 @@ function services() {
                     <h2>Dogs</h2>
                     <p>NOTE: we do not perform surgery on dogs in heat</p>
                     <ul className='prices'>
-                        <li>Spay(female) $110</li>
-                        <li>Spay(female) under 6 months of 
-                        age $80</li>
-                        <li>Neuter(male) $105</li>
-                        <li>Neuter(male) under 6 months of age $75</li>
-                        <li>
+                        <li>Spay(female) $165 Includes spay, pain injection, take home meds, and e-collar</li>
+                        <li>Neuter(male) $150 Includes neuter, pain injection, take home meds, and e-collar</li>
                             <ul>
                                 <li>Add $48 for dogs 50-69 lbs</li>
                                 <li>Add $97 for dogs 70-75 lbs</li>
                                 <li>Add $182 for dogs that are pregnant or have an abnormal uterus.</li>
                             </ul>
-                        </li>
-                        <p>Any dog spay over 90 lbs must call 770-787-8717, pressing option 3 and leave a voicemail to make an appointment for us to perform a quick exam to ensure we will be able to do surgery at our facility.</p>
                         <p>We highly recommend puppies have 2 DHPP shots prior to surgery day.</p>
                     </ul>
                 </div>
                 <div id='cat'>
                     <h2>Cats and Kittens</h2>
                     <ul className='prices'>
-                        <li>Spay(female) $77 (Add $22-$85 for cats that are pregnat or in heat, the cose depends on how far along the pregnancy is.)</li>
-                        <li>Neuter(male) $52</li>
+                        <li>Spay(female) $90 (Up to $100 for cats that are pregenant, the cost depends on how far along the pregnancy is). Includes Surgery and Pain injection.</li>
+                        <li>Neuter(male) $67 Includes Surgery and Pain injection. Includes Surgery and Pain injection.</li>
                         
                         <p>All cats must be in a carrier or trap or we will not accept them. An injection for additional pain management is available for $10. Additional take home pain meds or antibiotics are $18 each.</p>
                     </ul>
                     <h2>Feral Cats</h2>
                     <ul>
                         <p>No appointment necessary. Drop off Tues-Thurs 8:30 AM to 10 AM. Max of 3 cats per day. All ferals must be in a trap and Ear Tip is required!</p>
-                        <li>Feral Cat Spay(female)$90 (Add$22-$85 for cast that are pregnant. Pricing depends on how far along the pregnancy is.)</li>
-                        <li>Feral Cat Neuter(male)$67</li>
+                        <li>Feral Cat Spay(female)$90 (Up to $100 for cats that are pregenant, the cost depends on how far along the pregnancy is). Includes surgery, pain injection and ear tip.</li>
+                        <li>Feral Cat Neuter(male)$67 Includes surgery, pain injection and ear tip.</li>
                     </ul>
                     <h2>Other Services</h2>
                     <ul className='prices'>
                         <li>Dog Rabies Vaccine $20</li>
-                        <li>Dog DHPP/DHLPP Vaccine $17</li>
-                        <li>Dog Kennel Cough/Bordetella Vaccine $17</li>
-                        <li>Dog Heartworm Test $33</li>
-                        <li>Cat Rabies Vaccine (Purevax) $27</li>
-                        <li>Feral Cat Rabies Vaccine $27</li>
-                        <li>Cat FRCP Vaccine $17</li>
-                        <li>Cat FeLV/Feline Leukemia Vaccine $31</li>
+                        <li>Dog DHPP/DHLPP Vaccine $20</li>
+                        <li>Dog Kennel Cough/Bordetella Vaccine $20</li>
+                        <li>Dog Heartworm Test $35</li>
+                        <li>Cat Rabies Vaccine (Purevax) $28</li>
+                        <li>Feral Cat Rabies Vaccine (No Certificate)$10</li>
+                        <li>Cat FRCP Vaccine $20</li>
+                        <li>Cat FeLV/Feline Leukemia Vaccine $32</li>
                         <li>Cat FeLV/FIV Combo Test $44</li>
-                        <li>Microchip $28</li>
-                        <li>Fecal Test $17</li>
+                        <li>Microchip $20</li>
+                        <li>Fecal Test $20</li>
                         
                         <li>Flea/Tick Treament - Cost varies</li>
-                        <li>E-Collar (if required) $12-$16</li>
+                        <li>E-Collar (if required) $15</li>
                         <li>Heartworm Treatment - price depends on the weight of the dog</li>
                         <li>Heartworm/Flea/Tick Preventative - price depends on the weight of the dog/cat</li>
-                        <li>Yearly Wellness Vaccine Exam $40 *must be spayed or neutered</li>
-                        <li>Wellness Vaccine Exam for Surger $19 *must prepay for spay or neuter</li>
+                        <li>Yearly Wellness Vaccine Exam $45 *must be spayed or neutered</li>
+                        <li>Wellness Vaccine Exam for Surgery $20 *must prepay for spay or neuter</li>
                     </ul>
                 </div>
             </div>

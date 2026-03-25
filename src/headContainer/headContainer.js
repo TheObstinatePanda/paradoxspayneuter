@@ -33,8 +33,9 @@ function headContainer({ onNavClick }) {
                 <li><button onClick={ () => handleNavClick('staff')}>Meet the Staff</button></li>
                 <li><button onClick={ () => handleNavClick('tour')}>Tour</button></li>
                 <li><button onClick={ () => handleNavClick('contact')}>Contact</button></li>
+                <li><button onClick={ () => window.open('https://app.clinichq.com/online/9596676a-b477-4076-8ce9-9ce9e56d8936/donations/bc4779e8-7360-451e-bb09-21c25e0736b1', '_blank')}>Fix a Feral</button></li>
             </ul>
-            <div className="burger-menu" onClick={toggleMenu}>
+            <div className="burger-menu" onClick={toggleMenu}>  
               <span id='berger'>&#9776;</span>
             </div>
         </div>
