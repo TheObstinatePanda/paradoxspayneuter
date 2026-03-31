@@ -36,7 +36,7 @@ function services() {
                         <li>Spay(female) $90 (Up to $100 for cats that are pregnant, the cost depends on how far along the pregnancy is). Includes Surgery and Pain injection.</li>
                         <li>Neuter(male) $67 Includes Surgery and Pain injection. Includes Surgery and Pain injection.</li>
                         
-                        <p>All cats must be in a carrier or trap or we will not accept them. An injection for additional pain management is available for $10. Additional take home pain meds or antibiotics are $18 each.</p>
+                        <p>All cats must be in a carrier or trap or we will not accept them. Additional take home pain meds or antibiotics are $20 each.</p>
                     </ul>
                     <h2>Feral Cats</h2>
                     <ul>
