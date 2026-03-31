@@ -33,7 +33,7 @@ function services() {
                 <div id='cat'>
                     <h2>Cats and Kittens</h2>
                     <ul className='prices'>
-                        <li>Spay(female) $90 (Up to $100 for cats that are pregenant, the cost depends on how far along the pregnancy is). Includes Surgery and Pain injection.</li>
+                        <li>Spay(female) $90 (Up to $100 for cats that are pregnant, the cost depends on how far along the pregnancy is). Includes Surgery and Pain injection.</li>
                         <li>Neuter(male) $67 Includes Surgery and Pain injection. Includes Surgery and Pain injection.</li>
                         
                         <p>All cats must be in a carrier or trap or we will not accept them. An injection for additional pain management is available for $10. Additional take home pain meds or antibiotics are $18 each.</p>
@@ -41,7 +41,7 @@ function services() {
                     <h2>Feral Cats</h2>
                     <ul>
                         <p>No appointment necessary. Drop off Tues-Thurs 8:30 AM to 10 AM. Max of 3 cats per day. All ferals must be in a trap and Ear Tip is required!</p>
-                        <li>Feral Cat Spay(female)$90 (Up to $100 for cats that are pregenant, the cost depends on how far along the pregnancy is). Includes surgery, pain injection and ear tip.</li>
+                        <li>Feral Cat Spay(female)$90 (Up to $100 for cats that are pregnant, the cost depends on how far along the pregnancy is). Includes surgery, pain injection and ear tip.</li>
                         <li>Feral Cat Neuter(male)$67 Includes surgery, pain injection and ear tip.</li>
                     </ul>
                     <h2>Other Services</h2>
@@ -55,7 +55,7 @@ function services() {
                         <li>Cat FRCP Vaccine $20</li>
                         <li>Cat FeLV/Feline Leukemia Vaccine $32</li>
                         <li>Cat FeLV/FIV Combo Test $44</li>
-                        <li>Microchip $20</li>
+                        <li>Microchip $30</li>
                         <li>Fecal Test $20</li>
                         
                         <li>Flea/Tick Treament - Cost varies</li>
