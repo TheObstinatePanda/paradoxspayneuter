@@ -15,6 +15,8 @@ function services() {
 
             <p>If you have a feral dog/cat which needs a spay/neuter we do support trap neuter returns. Please call 770-787-8717 for more information.</p>
 
+            <a href="https://app.clinichq.com/public/paperwork/6da9ffec-db91-4354-857e-44faa1a228eb">Click here to request your pet's Medical Records!</a>
+
             <div id='dogvcat'>
                 <div id='dog'>
                     <h2>Dogs</h2>

@@ -6,6 +6,9 @@ function contact() {
             <div id='contactInfo'>
                 <h2>Spay/Neuter Appointments Only</h2>
                 <p>Please submit an online <a href='http://paradoxspayneuter.com/appointment.html' target='blank'>Appointment</a> request or leave your name and number on our spay/neuter voicemail: (770) 972-5067</p>
+                <h2>Records Request</h2>
+                <p>To request medical records, please submit a records request form online using the link below.</p>
+                <a href='https://www.clinichq.com/online/records-request-form/9596676a-b477-4076-8ce9-9ce9e56d8936' target='blank'></a>
                 <h2>All other Information</h2>
                 <p>For non-spay/neuter appointments, or questions about volunteering, dontations, or other information, please call the front desk during normal business hours or leave a message after hours: (770) 787-8717</p>
             </div>
